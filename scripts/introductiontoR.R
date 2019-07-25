@@ -41,4 +41,24 @@ possessions <- c(possessions, "mobile_phone") # add another element to vector
 
 typeof(possessions)
 
+# Subsetting
 
+respondent_wall_type[2]
+
+respondent_wall_type[c(3,2)]
+
+more_respondent_wall_type <- respondent_wall_type[c(1,2,3,2,1,3)]
+
+more_respondent_wall_type
+
+no_membrs[c(TRUE,FALSE,TRUE,TRUE)]
+
+no_membrs[no_membrs > 5]
+
+no_membrs>5
+
+no_membrs[no_membrs <3 | no_membrs >5]
+no_membrs[no_membrs >=7 & no_membrs == 3]
+
+
+possessions %in% c("bicycle","radio")
